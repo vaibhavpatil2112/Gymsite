@@ -1,0 +1,892 @@
+@media only screen and (max-width: 400px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger .active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger .active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger .active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-menu {
+    position: fixed;
+    left: -130%;
+    top: 6%;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 220vh;
+    background-color: rgba(44, 34, 51, 0.736);
+    text-align: center;
+    transition: all 0.3s;
+    z-index: 100;
+  }
+  .nav-item {
+    margin: 26px 0;
+  }
+  .nav-item a {
+    font-size: 4rem;
+  }
+  .nav-menu.active {
+    left: -23%;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .btn {
+    margin-top: -0.9rem;
+    margin-left: 2.5rem;
+    height: 6.5rem;
+    width: 40%;
+    margin-bottom: 2rem;
+  }
+  .btn a {
+    padding: 6rem;
+    font-size: 4rem;
+  }
+  .btn:hover {
+    background-color: rgb(255, 162, 0);
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .btn a:hover {
+    color: rgba(0, 0, 0, 0.859);
+  }
+
+  .container2 {
+    background-image: url(./img/img/girl\ gym.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220vh;
+    width: 400%;
+  }
+
+  .navbar {
+    width: 400%;
+    height: 150px;
+  }
+
+  .landing h1 {
+    font-size: 9rem;
+    color: rgb(138, 132, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40rem;
+  }
+  .landing h2 {
+    font-size: 8rem;
+    color: rgb(138, 132, 132);
+    margin-top: -5rem;
+  }
+
+  .landing p {
+    font-size: 9vmin;
+    width: 70rem;
+    color: aliceblue;
+    margin-top: -4rem;
+  }
+  .btn1 {
+    margin: 3rem;
+    padding: 3.7rem;
+    width: 60%;
+    height: 8%;
+    font-size: 3.8rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .box {
+    display: flex;
+    width: 47rem;
+    height: 15rem;
+    margin-top: -11rem;
+    position: absolute;
+  }
+  .box a {
+    margin-top: 4rem;
+  }
+  .bx {
+    font-size: 6rem;
+    width: 100%;
+    margin: 1.7rem;
+    margin-top: 3rem;
+  }
+  .container3 {
+    height: 380vh;
+    width: 400%;
+  }
+  .container3 .exp-text h1 {
+    font-size: 9rem;
+    text-align: center;
+  }
+  .exp-text p {
+    font-size: 5rem;
+  }
+  .exp-text .btn1 {
+    margin: 3rem;
+    padding: 3.2rem;
+    width: 50%;
+    height: 9%;
+    font-size: 3.8rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  /* ==============================================================---------------  Features  ----------------====================================================== */
+
+  .container4 {
+    margin: 0;
+    height: 190vh;
+    width: 400%;
+  }
+  .line {
+    margin: 38rem 0 15rem 8rem;
+    width: 346%;
+  }
+  .vertical {
+    margin: 37rem 0 0rem 10rem;
+    height: 0.1rem;
+    width: 224%;
+  }
+  .vertical1 {
+    margin: 37rem 10rem 20rem 39rem;
+    width: 224%;
+  }
+  .flex img {
+    height: 20rem;
+  }
+  .flex1 img {
+    height: 20rem;
+  }
+  .flex h1 {
+    font-size: 3rem;
+    margin-left: 5.3rem;
+  }
+  .flex1 h1 {
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
+  .flex-1 {
+    width: 30%;
+  }
+  .flex-2 {
+    width: 30%;
+  }
+  /* <!-- ====================================================================--------- Subscription plan ----------=============================================== --> */
+
+  .container5 {
+    height: 332vh;
+    width: 400%;
+    /* margin-bottom: -50rem; */
+    /* display: none; */
+    background-image: none;
+    background-color: rgba(93, 214, 214, 0.264);
+  }
+
+  .sub .subs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 23rem; */
+  }
+  .subs {
+    /* background-color: red; */
+    height: 100vh;
+    width: 100%;
+    margin-top: 105rem;
+  }
+  .sub1 {
+    /* margin-top: 10rem; */
+    height: 796vh;
+    width: 52%;
+    /* background-color: red; */
+  }
+  .text1 {
+    font-size: 8rem;
+    text-align: center;
+    margin-left: 15rem;
+    color: rgb(255, 187, 0);
+    width: 300%;
+  }
+
+  .sub1 ul {
+    font-size: 3.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .subs .sub1 h2 {
+    font-size: 5rem;
+  }
+  .pricing h1 {
+    font-size: 5rem;
+  }
+  .pricing button {
+    margin-left: 9rem;
+    width: 70%;
+    height: 35%;
+    font-size: 3rem;
+    padding: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pricing span {
+    font-size: 2.3rem;
+  }
+  .fa-check {
+    font-size: 5rem;
+    margin-right: 1.3rem;
+  }
+  .fa-times {
+    font-size: 5rem;
+    margin-right: 1.3rem;
+  }
+
+  /* <!-- ======================================================----------------  section 5 --------------------======================================================= --> */
+
+  .basic {
+    height: 250vh;
+    width: 400%;
+  }
+  .basic1 {
+    height: 300vh;
+    width: 400%;
+  }
+  .basic2 {
+    height: 160vh;
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rect {
+    width: 41rem;
+    height: 30rem;
+    padding: 3rem;
+  }
+  .rect img {
+    height: 80%;
+    width: 79%;
+    padding: 1rem;
+  }
+  .rect > p {
+    font-size: 3.6rem;
+  }
+
+  /* <!-- =============================================================-------- Download App section 6  ------------================================================ --> */
+
+  .app {
+    height: 260vh;
+    width: 400%;
+  }
+  .apps {
+    height: 250vh;
+  }
+  .app .app1 .apptext {
+    font-size: 7.8rem;
+    margin-left: 8rem;
+    text-align: center;
+  }
+  .app1 p {
+    padding: 0 4em;
+    font-size: 13vmin;
+    text-align: center;
+  }
+  .app2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .appstore {
+    width: 40%;
+    margin: 2rem;
+    margin-right: 12rem;
+  }
+  .appstore img {
+    width: 25rem;
+    height: 9.4rem;
+  }
+  .googleplay {
+    width: 26%;
+  }
+
+  .googleplay img {
+    width: 25rem;
+    height: 9rem;
+  }
+  /* <!-- ============================================================--------------  Footer ----------------========================================================= --> */
+
+  footer {
+    height: 700vh;
+    width: 400%;
+  }
+  .footer {
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .foot h4 {
+    font-size: 8rem;
+  }
+  .foot p {
+    color: rgba(255, 255, 255, 0.562);
+    line-height: 19vmin;
+    font-size: 4rem;
+  }
+  .foot span {
+    line-height: 8vmin;
+  }
+  .foot1 {
+    margin-top: 100rem;
+    width: 100%;
+  }
+  .foot1 h4 {
+    font-size: 8rem;
+  }
+  .foot1 a {
+    line-height: 23.3vmin;
+    font-size: 6rem;
+  }
+  .foot1 p {
+    line-height: 23.3vmin;
+    font-size: 6rem;
+  }
+  .form {
+    width: 150%;
+  }
+  .foot i {
+    margin-bottom: 30rem;
+    display: none;
+  }
+
+  footer input {
+    font-size: 4rem;
+  }
+  footer input text {
+    font-size: 3rem;
+  }
+
+  .fa-arrow-right {
+    padding: 3rem;
+    margin-bottom: 7rem;
+    height: 20vmin;
+  }
+  .foot1 .icon i {
+    font-size: 5.2rem;
+    padding: 2rem;
+  }
+
+  .foot3 {
+    display: none;
+  }
+  /* ==================================================---------   Classes section  -------=========================================== */
+  .class {
+    width: 400%;
+    height: 700vh;
+  }
+  .classtext {
+    font-size: 5rem;
+  }
+  .classs {
+    display: flex;
+    flex-direction: column;
+  }
+  .classs h3 {
+    font-size: 4.5rem;
+  }
+  .classs .classbtn {
+    font-size: 4.3rem;
+    width: 45rem;
+    padding: 2rem;
+  }
+  .class1 {
+    height: 300vh;
+    width: 50%;
+    margin-top: 180%;
+  }
+  .class1 img {
+    height: 110vh;
+    width: 150%;
+  }
+  .class2 {
+    margin-top: 30%;
+  }
+  .class2 img {
+    height: 110vh;
+    width: 120%;
+  }
+  .class3 {
+    margin-top: 55%;
+  }
+  .class3 img {
+    height: 110vh;
+    width: 120%;
+  }
+  /* ====================================================------  Trainer ------===================================================== */
+  .trainertext {
+    font-size: 6rem;
+  }
+  .trainer {
+    width: 400%;
+    height: 680vh;
+  }
+  .trainers {
+    display: flex;
+    flex-direction: column;
+  }
+  .trainer1 {
+    margin-top: 220%;
+  }
+  .trainer2 {
+    margin-top: 65%;
+  }
+  .trainer3 {
+    margin-top: 60%;
+  }
+
+  .trainer1 img {
+    height: 150vh;
+    width: 140%;
+  }
+  .trainer2 img {
+    height: 150vh;
+    width: 140%;
+  }
+  .trainer3 img {
+    height: 150vh;
+    width: 140%;
+  }
+  .trainer .classbtn {
+    font-size: 4.3rem;
+    width: 45rem;
+    padding: 2rem;
+  }
+  .trainer .icon i {
+    margin-left: 4rem;
+    font-size: 4.5rem;
+    padding-top: 3.5rem;
+  }
+  .slide-container {
+    height: 150vh;
+    width: 400%;
+  }
+  .slide img {
+    height: 160vh;
+  }
+  .arrow {
+    /* top: 45%; */
+    padding: 3.1rem;
+    font-size: 3.5rem;
+  }
+
+  /* <!-- =========================================================--------  Nutrition & Supplement section --------================================ --> */
+
+  .prodbg {
+    height: 600vh;
+    width: 400%;
+  }
+  .producttext {
+    font-size: 4.7rem;
+    width: 400%;
+  }
+  .products {
+    height: 80vh;
+    width: 400%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pro1 {
+    margin-top: 150%;
+  }
+
+  .pro2 {
+    margin-top: 45%;
+  }
+
+  .pro3 {
+    margin-top: 40%;
+  }
+  .pro1 img {
+    height: 110vh;
+    width: 120%;
+  }
+  .pro2 img {
+    height: 110vh;
+    width: 120%;
+  }
+  .pro3 img {
+    height: 110vh;
+    width: 120%;
+  }
+  .products .classbtn {
+    font-size: 4rem;
+    width: 35rem;
+    padding: 2rem;
+  }
+  /* <!-- -=============================================--------   Weights & Machine section  -----------================================ --> */
+
+  /* .w-text {
+    font-size: 2rem;
+  }
+  .weight {
+    height: 800vh;
+    width: 400%;
+  }
+  .weights {
+    display: flex;
+    flex-direction: column;
+  }
+  .weight1 {
+    height: 50vh;
+  }
+  .weight2 {
+    height: 50vh;
+  }
+  .weight3 {
+    height: 50vh;
+  }
+  .weight1 img {
+    height: 110vh;
+    width: 120%;
+  }
+  .weight2 img {
+    height: 110vh;
+    width: 120%;
+  }
+  .weight3 img {
+    height: 110vh;
+    width: 120%;
+  }
+  .weight .classbtn {
+    font-size: 1.3rem;
+    width: 12rem;
+    padding: 0.5rem;
+    background-color: #ffa805;
+    cursor: pointer;
+    font-weight: 600;
+  } */
+
+  /* <!-- =========================================================--------  Apparel & Merchandise section --------================================ --> */
+
+  .mertext {
+    font-size: 5.2rem;
+    margin-top: 550%;
+    width: 400%;
+  }
+
+  .merbg {
+    height: 550vh;
+    width: 400%;
+  }
+  .Merchandise1 {
+    height: 500vh;
+    width: 400%;
+    display: flex;
+    flex-direction: column;
+  }
+  .mer1 img {
+    height: 110vh;
+    width: 120%;
+  }
+  .mer2 img {
+    height: 110vh;
+    width: 120%;
+  }
+  .mer3 img {
+    height: 110vh;
+    width: 120%;
+  }
+
+  .Merchandise1 .classbtn {
+    font-size: 4rem;
+    width: 35rem;
+    padding: 2rem;
+  }
+  /* <!-- ===========================================================------ blog section  -------======================================== --> */
+
+  .blog {
+    height: 400vh;
+    width: 400%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blogs img {
+    height: 140vh;
+    width: 150%;
+  }
+  .blogs1 {
+    height: 50vh;
+    width: 80%;
+    margin: 40rem 3rem 4rem 5rem;
+  }
+  .blogs1 p {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  .blogcontent {
+    height: 490vh;
+    width: 400%;
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    height: 200vh;
+    width: 80%;
+    padding: 3rem;
+  }
+  .content h1 {
+    font-size: 4.9rem;
+    margin: 2rem;
+  }
+  .content p {
+    font-size: 4rem;
+    line-height: 4.3rem;
+  }
+  .contentimg img {
+    height: 130vh;
+    width: 80%;
+    margin-left: 14rem;
+  }
+  .blog3 img {
+    height: 140vh;
+    width: 150%;
+  }
+  /* <!-- ===========================================================------ Login section  -------======================================== --> */
+
+  .popup {
+    position: absolute;
+    top: 130%;
+    left: 200%;
+    width: 250%;
+    height: 190%;
+    z-index: 1000;
+  }
+  .popup.active {
+    top: 150%;
+  }
+
+  .popup .close-btn {
+    width: 100px;
+    height: 100px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 95px;
+    border-radius: 125px;
+  }
+  .popup .form h2 {
+    text-align: center;
+    margin: 10px 0px 20px;
+    font-size: 130px;
+    font-weight: 900;
+  }
+  .popup .form {
+    width: 100%;
+    height: 85vh;
+  }
+  .form-element input {
+    /* font-size: 1rem; */
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px;
+    font-size: 56px;
+  }
+  .popup .form .form-element {
+    margin: 25px 0px;
+  }
+  .popup .form .form-element label {
+    font-size: 90px;
+    color: #222;
+  }
+  .popup .form .form-element label input[type="text"],
+  .popup .form .form-element label input[type="password"] {
+    margin-top: 5px;
+    display: block;
+    width: 250%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 100px;
+  
+  }
+  .popup .form .form-element label input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  .popup .form .form-element button {
+    width: 70%;
+    height: 40px;
+    font-size: 66px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 12rem; */
+    padding: 4rem;
+  }
+  /* .popup .form .form-element button:hover {
+    
+    background: #000000d6;
+    color: #f5f5f5;
+    transform: scale(1.1);
+   
+  } */
+  .popup .form .form-element a {
+    font-size: 55px;
+  }
+
+
+  /* ==============================================================------------ Payment section ----------================================================ */
+  form {
+    justify-content: center;
+    display: flex;
+  }
+  .pay-container {
+    margin: 5rem 10rem 5rem 10rem;
+    /* position: absolute; */
+    width: 320%;
+    height: 450%;
+  }
+  
+  /* .pay-container.active {
+    top: 0;
+    opacity: 1;
+    transition: top 2ms ease-in-out 0ms, opacity 200ms ease-in-out 0ms,
+      transform 20ms ease-in-out 200ms;
+  } */
+  .pay-container .close-btn {
+    /* position: absolute; */
+    top: -10px;
+    right: -10px;
+    width: 95px;
+    height: 95px;
+    font-size: 90px;
+    background: #888;
+    color: #eee;
+    text-align: center;
+    line-height: 85px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .pay {
+    text-align: center;
+  }
+  .pay-container h1 {
+    /* font-family: Aladin;
+    color: white;
+    background-color: black;
+    background: linear-gradient(9deg, black, #000000b8);
+    text-align: center;
+    text-transform: uppercase; */
+    letter-spacing: 0.25cm;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 20px;
+    font-size: 3.5rem;
+  }
+  .pay-container h2 {
+    color: rgb(0, 0, 0);
+    margin: 2rem auto;
+    padding: 1.7rem 0rem;
+    line-height: 1rem;
+    font-size: 4rem;
+  }
+  .pay-container h2 span {
+    /* background: linear-gradient(45deg, rgb(0, 0, 0), rgb(186 169 169 / 83%)); */
+    padding: 0.3rem 3rem;
+    font-size: 3.2rem;
+  }
+  .hi {
+    color: white;
+    font-size: 59px;
+    color: black;
+    /* text-size-adjust: 20px;   */
+    padding: 0.3rem 0.7rem;
+    margin: 7px 10px;
+    font-weight: bolder;
+    border: none;
+  }
+  
+  .hi input {
+    padding: 1.5rem 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 4.1rem;
+    color: black !important;
+  }
+  input[type="submit"] {
+    width: 15rem;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(235, 16, 16);
+    font-style: italic;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    margin: 5px 30px;
+  }
+  
+  p {
+    padding: 0.2rem 0.5rem;
+  }
+  p i {
+   
+    display: none;
+  }
+  h2 i {
+   
+    display: none;
+  }
+  .pro {
+    padding: 15px;
+    width: 400;
+  }
+  .hi i {
+    display: none;
+  }
+  .ji {
+    background: linear-gradient(33deg, #ef0a0a, #000000d9);
+    transition: all 0.3s;
+  }
+  .pay input{
+    font-size: 5rem;
+    width: 40%;
+    height: 10%;
+
+  }
+  .ji:hover {
+    background: linear-gradient(33deg, #26ff00f4, #0000009d);
+    transform: scale(1.1);
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}

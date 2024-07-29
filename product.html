@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness club</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- -=============================================================================----------NAVBAR---------======================================================= -->
+    <header>
+      <nav class="navbar">
+
+        <a href="" class="navbar-brand">
+          <img src="./img/background-PNG-removebg.png" alt="">
+
+        </a>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="Index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="classes.html" class="nav-link">Classes</a>
+          </li>
+          <li class="nav-item">
+            <a href="Index.html#sub" class="nav-link">Prices</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">Product</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" id="show-login" class="nav-link">Login</a>
+          </li>
+          <button class="btn" id="join"><a href="#">JOIN NOW</a></button>
+
+
+          
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+
+        </div>
+      </nav>
+    </header>
+<!-- ============================================================----------------  Login form  -------------============================================== -->
+    <div class="popup">
+      <div class="close-btn">&times;</div>
+      <div class="form">
+          <h2>Log in</h2>
+          <div class="form-element">
+              <label for="email">Email:</label>
+              <input type="text" id="email" placeholder="Enter email">
+          </div>
+
+          <div class="form-element">
+              <label for="passord">password:</label>
+              <input type="password" id="password" placeholder="Enter password">
+          </div>
+          <div class="form-element">
+              <input type="checkbox" id="remember-me">
+              <label for="remember-me">Remember me</label>
+          </div>
+          <div class="form-element">
+              <button>Sign In </button>
+
+          </div>
+          <div class="form-element">
+              <a href="#">Forgot PassWord</a>
+          </div>
+      </div>
+  </div>
+
+   <!-- ===================================================================---------------  joinnow payment form --------------------------================================= -->
+
+
+   <div class="pay-container">
+    <div class="close-btn">&times;</div>
+    <form:action>
+    <h1>Payment form</h1>
+    <p>Required filds are followed by *</p>
+    <h2><span> Contact information</span> </h2>
+    <p class="hi">Name: *  <input type="text" name="name" placeholder="enter your name" required></p>
+    <p class="hi">Email: *  <input type="email" name="email"  required placeholder="vaibhav@123"></p>
+    <p class="hi">Contact No: *  <input type="text" name="email"  required placeholder="9856321453"></p>
+
+
+
+    <fieldset class="hi">
+
+      <legend>Gender: *</legend>
+         <p class="gender">
+          male  <input type="radio" name="gender" id="male" placeholder="male" required>
+          female <input type="radio" name="gender" id="female" placeholder="female">
+        </p>
+    </fieldset>
+    <p class="hi">address: * <textarea name="address" id="address" height:="" 97px;="" width:451px;="" placeholder="enter your address" style="margin: 0px; width: 432px; height: 104px;"></textarea></p>
+    <p class="hi">pincode: * <i class='bx bx-user-pin bx-burst' ></i>  <input type="number" name="pincode" id="pincode" required placeholder="425001"></p>
+
+    <fieldset class="hi">
+
+        <legend>Personal Training: *</legend>
+           <p class="gender">
+            Required <input type="radio" name="gender" placeholder="re"  required>
+            Not Required  <input type="radio" name="gender" placeholder="re" >
+          </p>
+      </fieldset>
+      <fieldset class="hi">
+
+        <legend>Duration: *</legend>
+           <p class="gender">
+            Monthly <input type="radio" name="gender" placeholder="gender" required>
+            quaterly <input type="radio" name="gender" placeholder="gender" >
+            Yearly  <input type="radio" name="gender" placeholder="gender" >
+          </p>
+      </fieldset>
+
+    <h2 class="pro">payment information</h2> 
+    <p class="hi">card type: <i class='bx bxs-credit-card-alt bx-tada' ></i>
+        <select title="card" name="card type" id="card type">
+            <option value=""--select a card type></option>
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</option>
+            <option value="master card">Master card</option>
+            
+        </select>
+    </p>
+    <p class="hi">
+        card number: *  <input type="number" name="card number" id="card number" required placeholder="43521345679">
+    </p>
+   
+    <p class="hi">
+        expiration date: *  <input type="date" name="exp-date" id="exp-date" required placeholder="13\23">
+    </p>
+    <p class="hi">
+        cvv: *  <input type="password" name="cvv" id="cvv" required placeholder="123">
+        
+    </p>  
+    <div class="pay"> 
+        <input class="ji" type="submit" value="pay now"> 
+    </div>
+</form:action>
+</div>
+
+    <!-- =========================================================--------  Nutrition & Supplement section --------================================ -->
+
+    <section class="product">
+        <div class="prodbg"></div>
+      <div class="producttext">
+        <h1>Nutrition & Supplement</h1>
+      </div>
+
+      <div class="products">
+        <div class="pro1">
+          <img src="./img/img/pre.jpg" alt="" />
+
+          <button class="classbtn">Mass gainer</button>
+        </div>
+        <div class="pro2">
+          <img src="./img/img/protein.jpg" alt="" />
+          <button class="classbtn">Whey protin</button>
+        </div>
+        <div class="pro3">
+          <img src="./img/img/ml.jpg" alt="" />
+          <button class="classbtn">Vitamin</button>
+        </div>
+      </div>
+
+      <!-- -=============================================--------   Weights & Machine section  -----------================================ -->
+    </section>
+
+    <section class="weight" style="background: none">
+      <h1 class="w-text">Weights & Machine</h1>
+      <div class="weights">
+        <div class="weight1">
+          <img src="./img/img/i1.jpg" alt="" />
+         
+          <br />
+
+          <button class="classbtn">Treadmill</button>
+        </div>
+        <div class="weight2">
+          <img src="./img/img/i1.webp" alt="" />
+         
+          <br />
+
+          <button class="classbtn">Free Weights</button>
+        </div>
+        <div class="weight3">
+          <img src="./img/img/e1.jpg" alt="" />
+          
+          <br />
+
+          <button class="classbtn">Cable Machines</button>
+        </div>
+      </div>
+    </section>
+
+     <!-- =========================================================--------  Apparel & Merchandise section --------================================ -->
+
+     <section class="Merchandise">
+        <div class="merbg"></div>
+      <div class="mertext">
+        <h1>Apparel & Merchandise</h1>
+      </div>
+
+      <div class="Merchandise1">
+        <div class="mer1">
+          <img src="./img/woman-8744701.jpg" alt="" />
+
+          <button class="classbtn">Running</button>
+        </div>
+        <div class="mer2">
+        <img src="./img/bruce-mars-y0SMHt74yqc-unsplash.jpg" alt="" />
+
+          <button class="classbtn">Zumba</button>
+        </div>
+        <div class="mer3">
+          <img src="./img/woman-1284656.jpg" alt="" />
+
+            <button class="classbtn">Yoga</button>
+        </div>
+      </div>
+
+   
+    <!-- ============================================================--------------  Footer ----------------========================================================= -->
+
+    <footer>
+      <section class="footer">
+        <div class="foot">
+          <h4>About us</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
+            maxime ea similique illum corrupti
+          </p>
+          <p>
+            Copyright ©2024 All rights reserved ||||| This template is made by
+            <span> Vaibhav patil</span>
+          </p>
+          <h4>Newsletter</h4>
+          <p>Stay Updated</p>
+
+          <form action="">
+            <input type="text" class="form" placeholder="Email" />
+            <i class="fas fa-arrow-right"></i>
+          </form>
+        </div>
+        <div class="foot1">
+          <h4 class="text-light">Quick links</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About us</a>
+          <a href="Index.html#sub">prices</a>
+          <a href="classes.html">Classes</a>
+          <a href="#" id="show-logins">sign in/up</a>
+          <a href="contact.html">contact us</a>
+          <a href="product.html">Product</a>
+          <a href="blog.html">Blogs</a>
+
+          <h4>Follow Us</h4>
+          <p>Let us be social</p>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+        <div class="foot3">
+          <img src="./img/background-PNG-removebg.png" alt="" />
+          <h2>Prioritize Your Fitness Goals with our world class services</h2>
+        </div>
+      </section>
+    </footer>
+
+
+    <script src="app.js"></script>
+
+  </body>
+</html>

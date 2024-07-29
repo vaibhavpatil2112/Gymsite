@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness club</title>
+    <link rel="stylesheet" href="Style.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="pay-container">
+        <form:action>
+        <h1>Payment form</h1>
+        <p>Required filds are followed by *</p>
+        <h2><span><i class='bx bxs-phone-call bx-tada'></i> Contact information</span> </h2>
+        <p class="hi">Name: *  <input type="text" name="name" placeholder="enter your name" required></p>
+        <p class="hi">Email: *  <input type="email" name="email" id="email" required placeholder="vaibhav@123"></p>
+        <p class="hi">Contact No: *  <input type="text" name="email" id="email" required placeholder="9856321453"></p>
+
+
+    
+        <fieldset class="hi">
+    
+          <legend>Gender</legend>
+             <p class="gender">
+              male * <input type="radio" name="gender" id="male" required>
+              female <input type="radio" name="gender" id="female">
+            </p>
+        </fieldset>
+        <p class="hi">address: * <textarea name="address" id="address" height:="" 97px;="" width:451px;="" placeholder="enter your address" style="margin: 0px; width: 432px; height: 104px;"></textarea></p>
+        <p class="hi">pincode: * <i class='bx bx-user-pin bx-burst' ></i>  <input type="number" name="pincode" id="pincode" required placeholder="425001"></p>
+
+        <fieldset class="hi">
+    
+            <legend>Personal Training</legend>
+               <p class="gender">
+                Required <input type="radio" name="gender" id="male" required>
+                Not Required  <input type="radio" name="gender" id="female">
+              </p>
+          </fieldset>
+          <fieldset class="hi">
+    
+            <legend>Duration</legend>
+               <p class="gender">
+                Monthly <input type="radio" name="gender" id="male" required>
+                quaterly <input type="radio" name="gender" id="female">
+                Yearly  <input type="radio" name="gender" id="female">
+              </p>
+          </fieldset>
+
+        <h2 class="pro">payment information</h2> 
+        <p class="hi">card type: <i class='bx bxs-credit-card-alt bx-tada' ></i>
+            <select name="card type" id="card type">
+                <option value=""--select a card type></option>
+                <option value="visa">Visa</option>
+                <option value="rupay">Rupay</option>
+                <option value="master card">Master card</option>
+                
+            </select>
+        </p>
+        <p class="hi">
+            card number: *  <input type="number" name="card number" id="card number" required placeholder="43521345679">
+        </p>
+       
+        <p class="hi">
+            expiration date: *  <input type="date" name="exp-date" id="exp-date" required placeholder="13\23">
+        </p>
+        <p class="hi">
+            cvv: *  <input type="password" name="cvv" id="cvv" required placeholder="123">
+            
+        </p>  
+        <div class="pay"> 
+            <input class="ji" type="submit" value="pay now"> 
+        </div>
+    </form:action>
+    </div>
+  </body>
+
+
+    </html>
