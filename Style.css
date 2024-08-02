@@ -192,7 +192,6 @@ li a:hover {
   margin-bottom: -1.5rem;
   clip-path: polygon(100% 34%, 0% 290%, 0 34%);
   border: 1px solid white;
-  /* z-index: -100; */
 }
 .bx {
   margin-top: 2.5rem;
@@ -201,7 +200,6 @@ li a:hover {
   transition: all 0.8s;
 }
 .bx:hover {
-  font-size: 2.3rem;
   cursor: pointer;
 }
 
@@ -1423,10 +1421,6 @@ body {
   color: #f5f5f5;
   border-radius: 10px;
   cursor: pointer;
-  /* align-items: center;
-  display: flex;
-  justify-content: center;
-  text-align: center; */
   margin-left: 8rem;
   transition: all 0.3s ease-in-out;
 }
@@ -1486,8 +1480,6 @@ form {
 .pay-container h1 {
   font-family: Aladin;
   color: rgb(0, 0, 0);
-  /* background-color: black; */
-  /* background: linear-gradient(9deg, black, #000000b8); */
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.25cm;
@@ -1507,7 +1499,6 @@ form {
   font-size: 1.5rem;
 }
 .pay-container h2 span {
-  /* background: linear-gradient(45deg, rgb(0, 0, 0), rgb(186 169 169 / 83%)); */
   padding: 0.3rem 3rem;
   font-size: 1.6rem;
   color: black;
@@ -1516,7 +1507,6 @@ form {
   color: white;
   font-size: 19px;
   color: black;
-  /* text-size-adjust: 20px;   */
   padding: 0.3rem 0.7rem;
   margin: 3px 10px;
   font-weight: bolder;
@@ -1562,7 +1552,6 @@ h2 i {
   margin-right: 0.5rem;
 }
 .pro {
-  /* background: linear-gradient(45deg, rgb(0, 0, 0), rgb(186 169 169 / 83%)); */
   padding: 15px;
   color: black;
   width: 400;
